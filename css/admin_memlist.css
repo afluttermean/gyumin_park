@@ -1,0 +1,282 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+body ul,
+li,
+dl,
+dd,
+dt,
+fieldset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.skipMenu {
+    position: relative
+}
+
+.skipMenu a {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 138px;
+    border: 1px solid #4ec53d;
+    background: #333;
+    text-align: center
+}
+
+.skipMenu a:active,
+.skipMenu a:focus {
+    top: 0;
+    z-index: 1000;
+    text-decoration: none
+}
+
+.skipMenu span {
+    display: inline-block;
+    padding: 2px 6px 0 0;
+    color: #fff;
+    letter-spacing: -1px;
+    font-size: 13px;
+    line-height: 26px
+}
+
+.a {
+    color: #E7484F
+}
+
+.b {
+    color: #F68B1D
+}
+
+.c {
+    color: #FCED00
+}
+
+.d {
+    color: #009E4F
+}
+
+.e {
+    color: #00AAC3
+}
+
+.f {
+    color: #732982
+}
+
+.hide {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.nav_bg {
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+h1 {
+    width: 195px;
+    height: 85px;
+    background: url(../images/main_header_logo.png)no-repeat;
+    text-indent: -9999px;
+    float: left;
+    box-sizing: border-box;
+    margin: 25px 20px;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background: #f00;
+    border-bottom: 15px solid #fff;
+    box-sizing: border-box;
+}
+
+.headerwrap {
+    width: 1200px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+}
+
+main {
+    margin: 100px auto;
+}
+
+.nameWrap {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.u_name {
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    right: 25px;
+    top: -200px;
+    color: #ffffff;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+main h2 {
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.formWrap {
+    width: 100%;
+    border-top: 2px solid #a8a7a7;
+    margin: auto auto 70px;
+    position: relative;
+}
+
+.redPoint {
+    width: 300px;
+    margin: auto;
+    border-bottom: 4px solid #ff0000;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_content {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+table,
+td {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid #a8a7a7
+}
+
+.tableWrap {
+    margin-top: 100px;
+}
+
+.member_title {
+    background: #a8a7a7;
+    color: #fff;
+    text-align: center
+}
+
+td {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+td a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #a8a7a7;
+    border-radius: 3px;
+    padding: 3px 5px
+}
+
+td a:hover {
+    color: #ffffff;
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+}
+
+.pagingTitle {
+    text-align: center;
+}
+
+.pagingBack {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #a8a7a7;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin: auto 10px;
+}
+
+.paging {
+    display: inline-block;
+    margin: auto 5px;
+}
+
+.pagingNext {
+    color: #000;
+    display: inline-block;
+    border: 1px solid #a8a7a7;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin: auto 10px;
+}
+
+.pagingBack {
+    color: #ffffff;
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+}
+
+.paging:hover {
+    text-decoration: underline;
+}
+
+.pagingNext {
+    color: #ffffff;
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+}
+
+.adminmenuWrap {
+    width: 1200px;
+    position: relative;
+}
+
+.adminMenu {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.adminMenu>a {
+    display: inline-block;
+}
+
+.backPage::after {
+    content: "|";
+    margin: auto 20px;
+}
+
+.adminMenu>a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}

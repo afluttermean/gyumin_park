@@ -1,0 +1,236 @@
+@media screen and (min-width:1190px) {
+    .footer_wrap {
+        width: 1200px;
+        margin: auto;
+        position: relative;
+    }
+    .footermenu {
+        width: 1200px;
+        height: 200px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .footer_underbars {
+        width: 100%;
+        height: 1px;
+        background: url(../images/footer_underbar_96.jpg)repeat-x;
+        margin: auto;
+        text-indent: -999px;
+    }
+    .footermenu dl {
+        float: left;
+    }
+    .footermenu_lineup {
+        line-height: 25px;
+        width: 200px;
+    }
+    .footermenu_lineup dd a:hover {
+        color: #d32d2c;
+        text-decoration: underline;
+    }
+    .footermenu_lineup dt {
+        width: 48px;
+        height: 21px;
+        background: url(../images/footermenu_lineup.png)no-repeat;
+        text-indent: -9999px;
+        margin: 20px 0 10px
+    }
+    .footermenu_amiibo {
+        line-height: 25px;
+        width: 200px;
+    }
+    .footermenu_amiibo dd a:hover {
+        color: #acc641;
+        text-decoration: underline;
+    }
+    .footermenu_amiibo dt {
+        width: 49px;
+        height: 21px;
+        background: url(../images/footermenu_amiibo.png)no-repeat;
+        text-indent: -9999px;
+        margin: 20px 0 10px
+    }
+    .footermenu_software {
+        line-height: 25px;
+        width: 200px;
+    }
+    .footermenu_software dd a:hover {
+        color: #459ae5;
+        text-decoration: underline;
+    }
+    .footermenu_software dt {
+        width: 63px;
+        height: 21px;
+        background: url(../images/footermenu_software.png)no-repeat;
+        text-indent: -9999px;
+        margin: 20px 0 10px
+    }
+    .footermenu_character {
+        line-height: 25px;
+        width: 200px;
+    }
+    .footermenu_character dd a:hover {
+        color: #429483;
+        text-decoration: underline;
+    }
+    .footermenu_character dt {
+        width: 68px;
+        height: 21px;
+        background: url(../images/footermenu_character.png)no-repeat;
+        text-indent: -9999px;
+        margin: 20px 0 10px
+    }
+    .footermenu_notice {
+        line-height: 25px;
+        width: 200px;
+    }
+    .footermenu_notice dd a:hover {
+        color: #eaac3c;
+        text-decoration: underline;
+    }
+    .footermenu_notice dt {
+        width: 46px;
+        height: 21px;
+        background: url(../images/footermenu_notice.png)no-repeat;
+        text-indent: -9999px;
+        margin: 20px 0 10px
+    }
+    .footermenu_support {
+        line-height: 25px;
+        width: 200px;
+    }
+    .footermenu_support dd a:hover {
+        color: #d4428a;
+        text-decoration: underline;
+    }
+    .footermenu_support dt {
+        width: 56px;
+        height: 21px;
+        background: url(../images/footermenu_support.png)no-repeat;
+        text-indent: -9999px;
+        margin: 20px 0 10px
+    }
+    .footer_info {
+        overflow: hidden;
+        color: #a8a7a7;
+    }
+    .footermenu_supportinfo {
+        float: left;
+        margin: 20px 20px 30px 20px;
+        line-height: 20px;
+    }
+    .footermenu_companyinfo {
+        float: left;
+        margin: 20px 20px 30px 20px;
+        line-height: 20px;
+    }
+    .footer_button {
+        position: absolute;
+        right: 0;
+        top: 225px;
+        overflow: hidden;
+    }
+    .footerbt_account {
+        float: left;
+        margin: 20px;
+        width: 207px;
+        height: 49px;
+        text-indent: -9999px;
+    }
+    .footerbt_account a {
+        display: block;
+        box-sizing: border-box;
+        width: 207px;
+        height: 49px;
+        background: url(../images/footerbutton_account.png)no-repeat;
+        text-indent: -9999px;
+    }
+    .footerbt_account a:hover {
+        background: url(../images/footerbutton_accountover.png)no-repeat;
+    }
+    .footerbt_online {
+        float: left;
+        margin: 20px;
+        width: 207px;
+        height: 49px;
+    }
+    .footerbt_online a {
+        display: block;
+        box-sizing: border-box;
+        width: 207px;
+        height: 49px;
+        background: url(../images/footerbutton_online.png)no-repeat;
+        text-indent: -9999px;
+    }
+    .footerbt_online a:hover {
+        background: url(../images/footerbutton_onlineover.png)no-repeat;
+    }
+    .footer_usepolicy {
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+    }
+    .footer_usepolicy li {
+        float: left;
+        margin: 5px 20px;
+    }
+    .footer_pp a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    .footer_pp a:after {
+        content: " | ";
+        margin-left: 25px;
+        color: #a8a7a7;
+    }
+    .footer_tu a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    .footer_tu a:after {
+        content: " | ";
+        margin-left: 25px;
+        color: #a8a7a7;
+    }
+    .footer_sales a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    .footer_sales a:after {
+        content: " | ";
+        margin-left: 25px;
+        color: #a8a7a7;
+    }
+    .footer_legal a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    .footer_legal a:after {
+        content: " | ";
+        margin-left: 25px;
+        color: #a8a7a7;
+    }
+    .footer_sitemap a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    .footer_usepolicy li a {
+        color: #a8a7a7;
+    }
+    .user_select {
+        position: absolute;
+        right: 10px;
+        top: -30px;
+    }
+    .user_select a {
+        color: #a8a7a7;
+    }
+    .user_select a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    .copyright {
+        margin: 5px;
+        color: #a8a7a7;
+    }
+}

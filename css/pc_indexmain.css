@@ -1,0 +1,180 @@
+@media screen and (min-width:1190px) {
+    .main_imageslide li img {
+        width: 100%;
+        height: 650px;
+    }
+    .software {
+        width: 1200px;
+        margin: 100px auto 80px;
+        overflow: hidden;
+        position: relative;
+    }
+    .software h2 {
+        width: 183px;
+        height: 31px;
+        background: url(../images/cgs_title.png)no-repeat;
+        text-indent: -9999px;
+    }
+    .software_all {
+        width: 560px;
+        height: 90px;
+        float: left;
+        padding-top: 260px;
+    }
+    .cgs_mario {
+        background: url(../images/cgs_mario35.png)no-repeat;
+        margin-right: 60px;
+        position: relative;
+    }
+    .cgs_mario p {
+        width: 192px;
+        height: 24px;
+        background: url(../images/cgs_mtitle.png)no-repeat;
+        text-indent: -9999px;
+    }
+    .cgs_mario:hover {
+        opacity: 0.7;
+    }
+    .cgs_c2 {
+        background: url(../images/cgs_c2.png)no-repeat;
+        margin-right: 20px;
+        position: relative;
+    }
+    .cgs_c2 p {
+        width: 226px;
+        height: 24px;
+        background: url(../images/cgs_ctitle.png)no-repeat;
+        text-indent: -9999px;
+    }
+    .cgs_c2:hover {
+        opacity: 0.7;
+    }
+    .cgs_nintendo {
+        width: 130px;
+        height: 17px;
+        background: url(../images/cgs_nintendo.png)no-repeat;
+        text-indent: -9999px;
+        position: absolute;
+        top: 255px;
+    }
+    .content_more {
+        position: absolute;
+        bottom: -10px;
+        right: 0;
+        background: url(../images/content_all.png)no-repeat;
+        width: 45px;
+        height: 12px;
+        text-indent: -9999px;
+    }
+    .content_more:hover {
+        background: url(../images/content_allover.png)no-repeat;
+    }
+    .contentbox {
+        width: 1200px;
+        margin: auto;
+        overflow: hidden;
+        margin-bottom: 70px;
+    }
+    .notice {
+        width: 650px;
+        height: 450px;
+        float: left;
+        margin-right: 50px;
+        position: relative;
+    }
+    .notice h2 {
+        width: 183px;
+        height: 31px;
+        background: url(../images/notice_title.jpg)no-repeat;
+        text-indent: -9999px;
+    }
+    .notice_imgWrap {
+        width: 210px;
+        height: 140px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .notice ul:hover {
+        opacity: 0.7;
+    }
+    .notice ul img:hover {
+        transform: scale(1.1, 1.1);
+    }
+    .notice ul img {
+        width: 210px;
+        height: 140px;
+    }
+    .notice_title {
+        font-weight: bold;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .notice ul {
+        float: left;
+        width: 210px;
+        height: 350px;
+        position: relative;
+    }
+    .notice ul span {
+        font-size: 12px;
+        color: #a8a7a7;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .notice1 {
+        margin-right: 10px;
+    }
+    .notice2 {
+        margin-right: 10px;
+    }
+    .event {
+        width: 500px;
+        height: 450px;
+        float: left;
+        position: relative;
+    }
+    .event h2 {
+        width: 183px;
+        height: 31px;
+        background: url(../images/event_title.jpg)no-repeat;
+        text-indent: -9999px;
+    }
+    .imgWrap {
+        width: 200px;
+        height: 105px;
+        overflow: hidden;
+        float: left;
+        margin-right: 10px;
+    }
+    .event img:hover {
+        transform: scale(1.1, 1.1);
+    }
+    .event ul {
+        height: 105px;
+        position: relative;
+    }
+    .event ul:hover {
+        opacity: 0.7;
+    }
+    .event ul span {
+        font-size: 12px;
+        color: #a8a7a7;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .event1 {
+        margin-bottom: 15px;
+    }
+    .event2 {
+        margin-bottom: 15px;
+    }
+    .event_title {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+}

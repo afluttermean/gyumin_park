@@ -1,0 +1,272 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+body ul,
+li,
+dl,
+dd,
+dt,
+fieldset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.skipMenu {
+    position: relative
+}
+
+.skipMenu a {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 138px;
+    border: 1px solid #4ec53d;
+    background: #333;
+    text-align: center
+}
+
+.skipMenu a:active,
+.skipMenu a:focus {
+    top: 0;
+    z-index: 1000;
+    text-decoration: none
+}
+
+.skipMenu span {
+    display: inline-block;
+    padding: 2px 6px 0 0;
+    color: #fff;
+    letter-spacing: -1px;
+    font-size: 13px;
+    line-height: 26px
+}
+
+.a {
+    color: #E7484F
+}
+
+.b {
+    color: #F68B1D
+}
+
+.c {
+    color: #FCED00
+}
+
+.d {
+    color: #009E4F
+}
+
+.e {
+    color: #00AAC3
+}
+
+.f {
+    color: #732982
+}
+
+.hide {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.nav_bg {
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+h1 {
+    width: 195px;
+    height: 85px;
+    background: url(../images/main_header_logo.png)no-repeat;
+    text-indent: -9999px;
+    float: left;
+    box-sizing: border-box;
+    margin: 25px 20px;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background: #f00;
+    border-bottom: 15px solid #fff;
+    box-sizing: border-box;
+}
+
+.headerwrap {
+    width: 1200px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+}
+
+h1>a {
+    display: block;
+    width: 195px;
+    height: 85px;
+}
+
+.nameWrap {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.u_name {
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    right: 25px;
+    top: -325px;
+    color: #ffffff;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+main h2 {
+    width: 130px;
+    height: 30px;
+    margin: 130px auto 5px;
+    text-align: center;
+}
+
+.formWrap {
+    width: 100%;
+    border-top: 2px solid #a8a7a7;
+    margin: auto auto 70px;
+    position: relative;
+}
+
+.redPoint {
+    width: 300px;
+    margin: auto;
+    border-bottom: 4px solid #ff0000;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.editForm ul {
+    width: 750px;
+    margin: 100px auto;
+    line-height: 25px;
+}
+
+.editForm ul input {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.editForm ul label {
+    position: relative;
+}
+
+.required {
+    position: absolute;
+    font-size: 8px;
+    color: #d32d2c;
+    top: -13px;
+    left: -10px;
+}
+
+.input_notice {
+    font-size: 12px;
+    color: #a8a7a7;
+    margin-left: 25px;
+}
+
+.check_error {
+    font-size: 12px;
+    color: #ff0000;
+}
+
+.liTitle {
+    display: inline-block;
+    width: 130px;
+}
+
+.address_input {
+    width: 350px;
+    margin-left: 130px;
+}
+
+.rainbowBt {
+    cursor: pointer;
+    border: none;
+    background-color: #343A40;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.rainbowBt2 {
+    cursor: pointer;
+    border: none;
+    background-color: #343A40;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.rainbowBt-1:hover {
+    font-weight: bold;
+    background-color: #f00;
+}
+
+.rainbowBt-2:hover {
+    font-weight: bold;
+    background-image: linear-gradient( to right, #f00, #f00 16.65%, #459ae5 16.65%, #459ae5 33.3%, #429483 33.3%, #429483 49.95%, #eaac3c 49.95%, #eaac3c 66.6%, #d4428a 66.6%, #d4428a 83.25%, #d4428a 83.25%, #d4428a 100%, #732982 100%);
+    animation: slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}
+
+.interest_input {
+    width: 250px;
+}
+
+.formBt {
+    width: 400px;
+    height: 30px;
+    margin: 20px auto auto;
+}
+
+.formBt button {
+    width: 120px;
+    height: 30px;
+    margin: auto 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}

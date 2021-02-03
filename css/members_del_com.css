@@ -1,0 +1,1047 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+body ul,
+li,
+dl,
+dd,
+dt,
+fieldset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.skipMenu {
+    position: relative
+}
+
+.skipMenu a {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 138px;
+    border: 1px solid #4ec53d;
+    background: #333;
+    text-align: center
+}
+
+.skipMenu a:active,
+.skipMenu a:focus {
+    top: 0;
+    z-index: 1000;
+    text-decoration: none
+}
+
+.skipMenu span {
+    display: inline-block;
+    padding: 2px 6px 0 0;
+    color: #fff;
+    letter-spacing: -1px;
+    font-size: 13px;
+    line-height: 26px
+}
+
+.a {
+    color: #E7484F
+}
+
+.b {
+    color: #F68B1D
+}
+
+.c {
+    color: #FCED00
+}
+
+.d {
+    color: #009E4F
+}
+
+.e {
+    color: #00AAC3
+}
+
+.f {
+    color: #732982
+}
+
+.hide {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.nav_bg {
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+h1 {
+    width: 195px;
+    height: 85px;
+    background: url(../images/main_header_logo.png)no-repeat;
+    text-indent: -9999px;
+    float: left;
+    box-sizing: border-box;
+    margin: 25px 20px;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background: #f00;
+    border-bottom: 15px solid #fff;
+    box-sizing: border-box;
+}
+
+.headerwrap {
+    width: 1200px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+}
+
+h1>a {
+    display: block;
+    width: 195px;
+    height: 85px;
+}
+
+.gnb_menu ul li ul li {
+    text-indent: 0;
+}
+
+.gnb_menu {
+    margin: auto;
+    height: 150px;
+}
+
+.gnb_menu>ul>li {
+    float: left;
+    width: 108px;
+    height: 150px;
+}
+
+.gnb_menu1 {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_lineup.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb_menu1>a {
+    display: block;
+    width: 108px;
+    height: 150px;
+}
+
+.gnb_menu1>a:hover {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_lineup2.png)no-repeat;
+}
+
+.gnb_menu2 {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_amiibi.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb_menu2>a {
+    display: block;
+    width: 108px;
+    height: 150px;
+}
+
+.gnb_menu2>a:hover {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_amiibo2.png)no-repeat;
+}
+
+.gnb_menu3 {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_soft.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb_menu3>a {
+    display: block;
+    width: 108px;
+    height: 150px;
+}
+
+.gnb_menu3>a:hover {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_software2.png)no-repeat;
+}
+
+.gnb_menu4 {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_character.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb_menu4>a {
+    display: block;
+    width: 108px;
+    height: 150px;
+}
+
+.gnb_menu4>a:hover {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_character2.png)no-repeat;
+}
+
+.gnb_menu5 {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_notice.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb_menu5>a {
+    display: block;
+    width: 108px;
+    height: 150px;
+}
+
+.gnb_menu5>a:hover {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_notice2.png)no-repeat;
+}
+
+.gnb_menu6 {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_support.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb_menu6>a {
+    display: block;
+    width: 108px;
+    height: 150px;
+}
+
+.gnb_menu6>a:hover {
+    width: 108px;
+    height: 150px;
+    background: url(../images/gnb_support2.png)no-repeat;
+}
+
+.gnb_menu>ul>li>ul {
+    overflow: hidden;
+}
+
+.gnb_2depth {
+    width: 1200px;
+    height: 250px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    z-index: 3;
+    display: none;
+}
+
+.sdepth_ns {
+    float: left;
+    width: 250px;
+    height: 200px;
+    background: url(../images/lineup_ns.png)no-repeat;
+    margin: 10px 50px;
+}
+
+.sdepth_ns a {
+    display: block;
+    width: 250px;
+    height: 200px;
+}
+
+.sdepth_ns:hover {
+    background: url(../images/lineup_nsmouse.png)no-repeat;
+}
+
+.sdepth_nsl {
+    float: left;
+    width: 203px;
+    height: 200px;
+    background: url(../images/lineup_lite.png)no-repeat;
+    margin: 10px 50px;
+}
+
+.sdepth_nsl a {
+    display: block;
+    width: 203px;
+    height: 200px;
+}
+
+.sdepth_nsl:hover {
+    background: url(../images/lineup_nslmouse.png)no-repeat;
+}
+
+.sdepth_3ds {
+    float: left;
+    width: 144px;
+    height: 200px;
+    background: url(../images/lineup_3ds.png)no-repeat;
+    margin: 10px 50px;
+}
+
+.sdepth_3ds a {
+    display: block;
+    width: 144px;
+    height: 200px;
+}
+
+.sdepth_3ds:hover {
+    background: url(../images/lineup_3dsmouse.png)no-repeat;
+}
+
+.sdepth_nmc {
+    float: left;
+    width: 191px;
+    height: 200px;
+    background: url(../images/lineup_nmc.png)no-repeat;
+    margin: 10px 50px;
+}
+
+.sdepth_nmc a {
+    display: block;
+    width: 191px;
+    height: 200px;
+}
+
+.sdepth_nmc:hover {
+    background: url(../images/lineup_nmcmouse.png)no-repeat;
+}
+
+.sdepth_all {
+    background: url(../images/2depth_all.png)no-repeat;
+    width: 49px;
+    height: 14px;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+.sdepth_all a {
+    display: block;
+    width: 49px;
+    height: 14px;
+}
+
+.sdepth_amiibologo {
+    width: 232px;
+    height: 58px;
+    background: url(../images/2depth_amiibo_title.png)no-repeat;
+    float: left;
+    margin: 80px 40px;
+}
+
+.sdepth_amiibo {
+    width: 129px;
+    height: 184px;
+    background: url(../images/2depth_amiibo.png)no-repeat;
+    float: left;
+    margin: 10px 40px;
+}
+
+.sdepth_amiibo a {
+    display: block;
+    width: 129px;
+    height: 184px;
+}
+
+.sdepth_amiibo:hover {
+    background: url(../images/2depth_amiiboover.png);
+}
+
+.sdepth_amiiboline {
+    width: 129px;
+    height: 184px;
+    background: url(../images/2depth_amiiboline.png)no-repeat;
+    float: left;
+    margin: 10px 40px;
+}
+
+.sdepth_amiiboline a {
+    display: block;
+    width: 129px;
+    height: 184px;
+}
+
+.sdepth_amiiboline:hover {
+    background: url(../images/2depth_amiibolineover.png);
+}
+
+.sdepth_amiibosoft {
+    width: 129px;
+    height: 184px;
+    background: url(../images/2depth_amiibosoft.png)no-repeat;
+    float: left;
+    margin: 10px 40px;
+}
+
+.sdepth_amiibosoft a {
+    display: block;
+    width: 129px;
+    height: 184px;
+}
+
+.sdepth_amiibosoft:hover {
+    background: url(../images/2depth_amiibosoftover.png);
+}
+
+.sdepth_amiiboset {
+    width: 129px;
+    height: 184px;
+    background: url(../images/2depth_amiiboset.png)no-repeat;
+    float: left;
+    margin: 10px 10px 10px 40px;
+}
+
+.sdepth_amiiboset a {
+    display: block;
+    width: 129px;
+    height: 184px;
+}
+
+.sdepth_amiiboset:hover {
+    background: url(../images/2depth_amiibosetover.png);
+}
+
+.sdepth_softns {
+    width: 190px;
+    height: 170px;
+    background: url(../images/soft2_ns.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_softns a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_softns:hover {
+    background: url(../images/soft2_inns.png);
+}
+
+.sdepth_soft3ds {
+    width: 190px;
+    height: 170px;
+    background: url(../images/soft2_3ds.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_soft3ds a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_soft3ds:hover {
+    background: url(../images/soft2_in3ds.png);
+}
+
+.sdepth_softphone {
+    width: 190px;
+    height: 170px;
+    background: url(../images/soft2_smart.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_softphone a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_softphone:hover {
+    background: url(../images/soft2_insmart.png);
+}
+
+.sdepth_softrel {
+    width: 190px;
+    height: 170px;
+    background: url(../images/soft2_rel.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_softrel a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_softrel:hover {
+    background: url(../images/soft2_inrel.png);
+}
+
+.sdepth_softfree {
+    width: 190px;
+    height: 170px;
+    background: url(../images/soft2_free.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_softfree a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_softfree:hover {
+    background: url(../images/soft2_infree.png);
+}
+
+
+/*character*/
+
+.sdepth_mario {
+    width: 190px;
+    height: 170px;
+    background: url(../images/software2depth_mario.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_mario a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_mario:hover {
+    background: url(../images/software_2depth_marioover.png);
+}
+
+.sdepth_animal {
+    width: 190px;
+    height: 170px;
+    background: url(../images/software2depth_animal.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_animal a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_animal:hover {
+    background: url(../images/software2depth_animalover.png);
+}
+
+.sdepth_zelda {
+    width: 190px;
+    height: 170px;
+    background: url(../images/software2depth_zelda.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_zelda a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_zelda:hover {
+    background: url(../images/software2depth_zeldaover.png);
+}
+
+.sdepth_fire {
+    width: 190px;
+    height: 170px;
+    background: url(../images/software2depth_fire.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_fire a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_fire:hover {
+    background: url(../images/software2depth_fireover.png);
+}
+
+.sdepth_kirby {
+    width: 190px;
+    height: 170px;
+    background: url(../images/software2depth_kirby.png)no-repeat;
+    float: left;
+    margin: 10px 25px;
+}
+
+.sdepth_kirby a {
+    display: block;
+    width: 190px;
+    height: 170px;
+}
+
+.sdepth_kirby:hover {
+    background: url(../images/software2depth_kirbyover.png);
+}
+
+.top_menu {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+
+.top_menu ul li {
+    float: left;
+    margin-right: 5px;
+    height: 25px;
+}
+
+.top_search {
+    position: relative;
+}
+
+.top_search_title>a {
+    width: 53px;
+    height: 25px;
+    display: block;
+}
+
+.searchBt {
+    text-indent: 0;
+    left: 230px;
+    display: none;
+}
+
+.top_search_title {
+    width: 53px;
+    background: url(../images/topmenu_reserch.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.searchShow {
+    position: absolute;
+    top: 30px;
+}
+
+.top_search form input {
+    width: 210px;
+    height: 22px;
+    border: none;
+    display: none;
+}
+
+.top_online {
+    width: 111px;
+    background: url(../images/topmenu_online.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.top_account {
+    width: 107px;
+    background: url(../images/topmenu_account.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.top_account a {
+    display: block;
+}
+
+main h2 {
+    width: 250px;
+    height: 30px;
+    margin: 130px auto 5px;
+    text-align: center;
+}
+
+.contentWrap {
+    width: 100%;
+    border-top: 2px solid #a8a7a7;
+    margin: auto auto 70px;
+    position: relative;
+}
+
+.redPoint {
+    width: 300px;
+    margin: auto;
+    border-bottom: 4px solid #ff0000;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textWrap {
+    width: 300px;
+    margin: auto;
+}
+
+.textWrap h3 {
+    width: 200px;
+    margin: 100px auto;
+}
+
+.contentWrap>ul li {
+    margin: 40px auto;
+}
+
+.select {
+    font-size: 12px;
+    color: #a8a7a7;
+    position: absolute;
+    top: 0;
+}
+
+.formBt {
+    width: 264px;
+    height: 30px;
+    margin: 20px auto;
+}
+
+.formBt button {
+    width: 120px;
+    height: 30px;
+    margin: auto 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.rainbowBt2 {
+    cursor: pointer;
+    border: none;
+    background-color: #343A40;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.rainbowBt-2:hover {
+    font-weight: bold;
+    background-image: linear-gradient( to right, #f00, #f00 16.65%, #459ae5 16.65%, #459ae5 33.3%, #429483 33.3%, #429483 49.95%, #eaac3c 49.95%, #eaac3c 66.6%, #d4428a 66.6%, #d4428a 83.25%, #d4428a 83.25%, #d4428a 100%, #732982 100%);
+    animation: slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}
+
+.footer_wrap {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.footermenu {
+    width: 1200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.footer_underbars {
+    width: 100%;
+    height: 1px;
+    background: url(../images/footer_underbar_96.jpg)repeat-x;
+    margin: auto;
+    text-indent: -999px;
+}
+
+.footermenu dl {
+    float: left;
+}
+
+.footermenu_lineup {
+    line-height: 25px;
+    width: 200px;
+}
+
+.footermenu_lineup dd a:hover {
+    color: #d32d2c;
+    text-decoration: underline;
+}
+
+.footermenu_lineup dt {
+    width: 48px;
+    height: 21px;
+    background: url(../images/footermenu_lineup.png)no-repeat;
+    text-indent: -9999px;
+    margin: 20px 0 10px
+}
+
+.footermenu_amiibo {
+    line-height: 25px;
+    width: 200px;
+}
+
+.footermenu_amiibo dd a:hover {
+    color: #acc641;
+    text-decoration: underline;
+}
+
+.footermenu_amiibo dt {
+    width: 49px;
+    height: 21px;
+    background: url(../images/footermenu_amiibo.png)no-repeat;
+    text-indent: -9999px;
+    margin: 20px 0 10px
+}
+
+.footermenu_software {
+    line-height: 25px;
+    width: 200px;
+}
+
+.footermenu_software dd a:hover {
+    color: #459ae5;
+    text-decoration: underline;
+}
+
+.footermenu_software dt {
+    width: 63px;
+    height: 21px;
+    background: url(../images/footermenu_software.png)no-repeat;
+    text-indent: -9999px;
+    margin: 20px 0 10px
+}
+
+.footermenu_character {
+    line-height: 25px;
+    width: 200px;
+}
+
+.footermenu_character dd a:hover {
+    color: #429483;
+    text-decoration: underline;
+}
+
+.footermenu_character dt {
+    width: 68px;
+    height: 21px;
+    background: url(../images/footermenu_character.png)no-repeat;
+    text-indent: -9999px;
+    margin: 20px 0 10px
+}
+
+.footermenu_notice {
+    line-height: 25px;
+    width: 200px;
+}
+
+.footermenu_notice dd a:hover {
+    color: #eaac3c;
+    text-decoration: underline;
+}
+
+.footermenu_notice dt {
+    width: 46px;
+    height: 21px;
+    background: url(../images/footermenu_notice.png)no-repeat;
+    text-indent: -9999px;
+    margin: 20px 0 10px
+}
+
+.footermenu_support {
+    line-height: 25px;
+    width: 200px;
+}
+
+.footermenu_support dd a:hover {
+    color: #d4428a;
+    text-decoration: underline;
+}
+
+.footermenu_support dt {
+    width: 56px;
+    height: 21px;
+    background: url(../images/footermenu_support.png)no-repeat;
+    text-indent: -9999px;
+    margin: 20px 0 10px
+}
+
+.footer_info {
+    overflow: hidden;
+    color: #a8a7a7;
+}
+
+.footermenu_supportinfo {
+    float: left;
+    margin: 20px 20px 30px 20px;
+    line-height: 20px;
+}
+
+.footermenu_companyinfo {
+    float: left;
+    margin: 20px 20px 30px 20px;
+    line-height: 20px;
+}
+
+.footer_button {
+    position: absolute;
+    right: 0;
+    top: 225px;
+    overflow: hidden;
+}
+
+.footerbt_account {
+    float: left;
+    margin: 20px;
+    width: 207px;
+    height: 49px;
+    text-indent: -9999px;
+}
+
+.footerbt_account a {
+    display: block;
+    box-sizing: border-box;
+    width: 207px;
+    height: 49px;
+    background: url(../images/footerbutton_account.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.footerbt_account a:hover {
+    background: url(../images/footerbutton_accountover.png)no-repeat;
+}
+
+.footerbt_online {
+    float: left;
+    margin: 20px;
+    width: 207px;
+    height: 49px;
+}
+
+.footerbt_online a {
+    display: block;
+    box-sizing: border-box;
+    width: 207px;
+    height: 49px;
+    background: url(../images/footerbutton_online.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.footerbt_online a:hover {
+    background: url(../images/footerbutton_onlineover.png)no-repeat;
+}
+
+.footer_usepolicy {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+
+.footer_usepolicy li {
+    float: left;
+    margin: 5px 20px;
+}
+
+.footer_pp a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer_pp a:after {
+    content: " | ";
+    margin-left: 25px;
+    color: #a8a7a7;
+}
+
+.footer_tu a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer_tu a:after {
+    content: " | ";
+    margin-left: 25px;
+    color: #a8a7a7;
+}
+
+.footer_sales a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer_sales a:after {
+    content: " | ";
+    margin-left: 25px;
+    color: #a8a7a7;
+}
+
+.footer_legal a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer_legal a:after {
+    content: " | ";
+    margin-left: 25px;
+    color: #a8a7a7;
+}
+
+.footer_sitemap a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer_usepolicy li a {
+    color: #a8a7a7;
+}
+
+.user_select {
+    position: absolute;
+    right: 10px;
+    top: -30px;
+}
+
+.user_select a {
+    color: #a8a7a7;
+}
+
+.user_select a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.copyright {
+    margin: 5px;
+    color: #a8a7a7;
+}
